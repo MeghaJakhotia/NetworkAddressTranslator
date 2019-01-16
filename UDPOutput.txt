@@ -1,0 +1,12 @@
+Server.java Output:
+
+Client msg : hello 
+Enter something hiu
+Client msg : kjfdfa
+Enter something bye
+
+Client.java Output:
+Enter something : hello 
+Server msg : hiu
+Enter something : kjfdfa
+Server msg : bye
