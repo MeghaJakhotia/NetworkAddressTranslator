@@ -1,10 +1,16 @@
 # Network-Address-Translator
 Java program to demonstrate the network concept of NAT
 
-The Google definition of Network Address Translation (NAT) is a process in which one or more local IP address is 
-translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts.
+## General Info
+Network Address Translation (NAT) is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts.
 
-The workflow of this code can be given as:
+## Getting Started
+In order to run this code, compile all the programs on 3 different devices and then:
+1. Run the server program
+2. Run the NAT program
+3. Run the client program
+
+## Workflow
 
 •	Initially, the client will send an authentication request to the NAT. This event is not usually performed in the real world, but a similar mechanism is used. In a company, a device is assigned to perform NATing and that device is already authenticated by the underlying mechanisms.
 
@@ -30,12 +36,7 @@ The workflow of this code can be given as:
 
 •	On a “bye” message sent either by client or server, the entire established connection will be terminated.
 
-In order to run this code, compile all the programs on 3 different devices and then:
-1. Run the server program
-2. Run the NAT program
-3. Run the client program
-
-Output:
+## Output
 1. Server:
 ![Server](Server.png)
 
@@ -44,6 +45,3 @@ Output:
 
 3. Client:
 ![Client](client.png)
-
-
-
